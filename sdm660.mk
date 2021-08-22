@@ -496,6 +496,10 @@ PRODUCT_SOONG_NAMESPACES += \
 QCOM_SOONG_NAMESPACE := \
     $(COMMON_PATH)/qcom-caf
 
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
