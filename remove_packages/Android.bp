@@ -22,6 +22,13 @@ android_app_import {
         "VZWAPNLib",
         "VzwOmaTrigger",
         "WfcActivation",
+        "Chrome",
+        "Chrome-Stub",
+        "MarkupGoogle",
+        "AiWallpapers",
+        "AndroidAutoStubPrebuilt",
+        "KidsSupervisionStub",
+        "SafetyHubPrebuilt",
     ],
 
     apk: "null",
