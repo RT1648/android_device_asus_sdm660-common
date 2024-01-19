@@ -413,8 +413,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    libtflite \
    libtextclassifier_hash \
-   vendor.qti.hardware.perf@2.2.vendor
-    
+   vendor.qti.hardware.perf@2.2.vendor \
+   vendor.qti.hardware.perf@2.2
+
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf    
 
