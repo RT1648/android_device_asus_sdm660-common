@@ -58,6 +58,7 @@
         
         <service
             android:name="com.advanced.settings.doze.DozeTileService"
+            android:exported="true">
             android:icon="@drawable/ic_doze"
             android:label="@string/ambient_display_gestures_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
