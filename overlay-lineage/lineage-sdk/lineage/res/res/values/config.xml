@@ -87,5 +87,5 @@
     </string-array>
     
     <!-- Default values for LiveDisplay -->
-    <bool name="config_enableLiveDisplay">false</bool>
+    <bool name="config_enableLiveDisplay">true</bool>
 </resources>
