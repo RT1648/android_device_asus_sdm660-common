@@ -464,7 +464,7 @@
     <bool name="config_supportsUdfps">false</bool>
 
     <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">false</bool>
+    <bool name="config_supportSmartPixels">true</bool>
 
     <!-- Boost Framework -->
     <bool name="config_supportsBoostFramework">true</bool>
