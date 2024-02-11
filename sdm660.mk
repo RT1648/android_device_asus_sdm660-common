@@ -119,7 +119,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
-USE_DEX2OAT_DEBUG := false 
+USE_DEX2OAT_DEBUG := false
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
@@ -175,6 +175,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey
+
+# Enable DM file pre-opting to reduce first boot time
+PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
 
 # FM
 PRODUCT_PACKAGES += \
