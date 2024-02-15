@@ -105,6 +105,7 @@ debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
 # Display
+debug.cpurend.vsync=false
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 ro.hardware.egl=adreno
