@@ -441,8 +441,6 @@
         <item>com.google.android.apps.tachyon</item>
         <!-- Recorder -->
         <item>com.google.android.apps.recorder</item>
-        <!-- Settings -->
-        <item>com.android.settings</item>
         <!-- Via Browser -->
         <item>mark.via.gp</item>
     </string-array>
