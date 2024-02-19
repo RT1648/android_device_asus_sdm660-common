@@ -1,1 +1,2 @@
+type turbo_adapter, domain;
 allow turbo_adapter default_android_hwservice:hwservice_manager { find };
